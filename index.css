@@ -7,14 +7,24 @@
 }
 
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: var(--slate-300);
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .content {
     background-color: white;
-    width: 320px;
-    height: 499px;
+    max-width: 320px;
     padding: 16px 16px 40px 16px;
     border-radius: 20px;
     margin: auto;
@@ -22,47 +32,36 @@
 }
 
 .qr-code {
-    width: 288px;
-    height: 288px;
+    width: 100%;
     border-radius: 10px;
     border: 1px solid black;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .text {
-    padding: 16px;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: transparent;
+    padding: 16px 0;
     text-align: center;
 }
 
 .title {
-    width: 256px;
-    height: 52px;
     font-weight: bold;
     font-size: 22px;
-    line-height: 120%;
+    line-height: 1.2;
     color: var(--slate-900);
-    background-color: transparent;
+    margin-bottom: 16px;
 }
 
 .description {
-    width: 256px;
-    height: 63px;
     font-size: 15px;
-    line-height: 140%;
+    line-height: 1.4;
     letter-spacing: 0.2px;
     color: var(--slate-500);
-    background-color: transparent;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 20px;
 }
 
 .attribution a {

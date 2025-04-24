@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [QR code component repo](https://github.com/lynnagidza/qr-code-component)
-- Live Site URL: [QR code on Vercel](https://qr-code-component-eta-gilt.vercel.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-qr-code-component-CDO54azwaf)
+- Live Site URL: [QR code on Vercel](https://qr-code-component-eta-gilt.vercel.app)
 
 ## My process
 
